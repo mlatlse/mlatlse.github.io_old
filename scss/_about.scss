@@ -1,0 +1,11 @@
+// Styling for the masthead
+section.about {
+  text-align: center;
+  color: white;
+  background-image: url('../img/header-bg-google.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  @include background-cover;
+  
+}
